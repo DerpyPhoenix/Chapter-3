@@ -1,0 +1,126 @@
+@charset "utf-8";
+
+/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 3
+   Case Problem 4
+
+   Park City Gazette Style Sheet
+   Author: 
+   Date:   
+
+   Filename:         pcg_paper.css
+   Supporting Files: 
+
+*/
+
+/* body styles */
+
+html {
+	background-color: tan;
+}
+
+body {
+	background-color: ivory;
+}
+
+/* image placements */
+
+header > img {
+	width: 100%;
+	position: relative;
+	max-height: 10em;
+	min-height: 1em;
+}
+
+/* navigation styles */
+
+nav#first li {
+	float: left;
+	text-align: center;
+	width: 10%;
+	text-decoration: none;
+	display: block;
+	color: rgb(0, 0, 0);
+	list-style-type: none;
+}
+
+nav#second li {
+	float: left;
+	text-align: center;
+	width: 11.1%;
+	text-decoration: none;
+	display: block;
+	color: rgb(0, 0, 0);
+	list-style-type: none;
+}
+
+nav#third li {
+	float: left;
+	text-align: center;
+	width: 50%;
+	text-decoration: none;
+	display: block;
+	color: rgb(0, 0, 0);
+	list-style-type: none;
+	margin-bottom: 4em;
+}
+
+nav#fourth li {
+	float: left;
+	text-align: center;
+	width: 10%;
+	text-decoration: none;
+	display: block;
+	color: rgb(0, 0, 0);
+	list-style-type: none;
+	margin-bottom: 4em;
+}
+
+nav a:visited, nav a:link {
+	color: rgb(0, 15, 21);
+}
+
+nav a:hover, nav a:active {
+	color: rgb(0, 0, 128);
+}
+
+/* text set-up */
+
+h1 {
+	padding-top: 10px;
+	font-size: 2.5em;
+	text-align: center;
+	padding-top: 100px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h2 {
+	text-align: center;
+	display: block;
+	padding-top: 10px;
+	font-size: 1.25em;
+}
+
+p {
+	display: block;
+	line-height: 1em;
+	font-size: 1em;
+}
+
+/* footer styles */
+
+footer {
+	text-align: center;
+	background-color: rgb(0, 0, 0);
+	color: rgba(255, 255, 255, .79);
+	max-height: 1em;
+	min-height: .5em;
+}
+
+footer::after {
+        clear: both;
+        content: "";
+        display: table;
+}
